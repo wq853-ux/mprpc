@@ -39,7 +39,11 @@ namespace protobuf_user_2eproto {
 struct TableStruct {
   static const ::google::protobuf::internal::ParseTableField entries[];
   static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
+<<<<<<< HEAD
   static const ::google::protobuf::internal::ParseTable schema[5];
+=======
+  static const ::google::protobuf::internal::ParseTable schema[3];
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
   static const ::google::protobuf::internal::FieldMetadata field_metadata[];
   static const ::google::protobuf::internal::SerializationTable serialization_table[];
   static const ::google::protobuf::uint32 offsets[];
@@ -53,12 +57,15 @@ extern LoginRequestDefaultTypeInternal _LoginRequest_default_instance_;
 class LoginResponse;
 class LoginResponseDefaultTypeInternal;
 extern LoginResponseDefaultTypeInternal _LoginResponse_default_instance_;
+<<<<<<< HEAD
 class RegisterRequest;
 class RegisterRequestDefaultTypeInternal;
 extern RegisterRequestDefaultTypeInternal _RegisterRequest_default_instance_;
 class RegisterResponse;
 class RegisterResponseDefaultTypeInternal;
 extern RegisterResponseDefaultTypeInternal _RegisterResponse_default_instance_;
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 class ResultCode;
 class ResultCodeDefaultTypeInternal;
 extern ResultCodeDefaultTypeInternal _ResultCode_default_instance_;
@@ -67,8 +74,11 @@ namespace google {
 namespace protobuf {
 template<> ::fixbug::LoginRequest* Arena::CreateMaybeMessage<::fixbug::LoginRequest>(Arena*);
 template<> ::fixbug::LoginResponse* Arena::CreateMaybeMessage<::fixbug::LoginResponse>(Arena*);
+<<<<<<< HEAD
 template<> ::fixbug::RegisterRequest* Arena::CreateMaybeMessage<::fixbug::RegisterRequest>(Arena*);
 template<> ::fixbug::RegisterResponse* Arena::CreateMaybeMessage<::fixbug::RegisterResponse>(Arena*);
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 template<> ::fixbug::ResultCode* Arena::CreateMaybeMessage<::fixbug::ResultCode>(Arena*);
 }  // namespace protobuf
 }  // namespace google
@@ -434,6 +444,7 @@ class LoginResponse : public ::google::protobuf::Message /* @@protoc_insertion_p
   mutable ::google::protobuf::internal::CachedSize _cached_size_;
   friend struct ::protobuf_user_2eproto::TableStruct;
 };
+<<<<<<< HEAD
 // -------------------------------------------------------------------
 
 class RegisterRequest : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:fixbug.RegisterRequest) */ {
@@ -683,6 +694,8 @@ class RegisterResponse : public ::google::protobuf::Message /* @@protoc_insertio
   mutable ::google::protobuf::internal::CachedSize _cached_size_;
   friend struct ::protobuf_user_2eproto::TableStruct;
 };
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 // ===================================================================
 
 class UserServiceRpc_Stub;
@@ -702,10 +715,13 @@ class UserServiceRpc : public ::google::protobuf::Service {
                        const ::fixbug::LoginRequest* request,
                        ::fixbug::LoginResponse* response,
                        ::google::protobuf::Closure* done);
+<<<<<<< HEAD
   virtual void Register(::google::protobuf::RpcController* controller,
                        const ::fixbug::RegisterRequest* request,
                        ::fixbug::RegisterResponse* response,
                        ::google::protobuf::Closure* done);
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 
   // implements Service ----------------------------------------------
 
@@ -739,10 +755,13 @@ class UserServiceRpc_Stub : public UserServiceRpc {
                        const ::fixbug::LoginRequest* request,
                        ::fixbug::LoginResponse* response,
                        ::google::protobuf::Closure* done);
+<<<<<<< HEAD
   void Register(::google::protobuf::RpcController* controller,
                        const ::fixbug::RegisterRequest* request,
                        ::fixbug::RegisterResponse* response,
                        ::google::protobuf::Closure* done);
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
  private:
   ::google::protobuf::RpcChannel* channel_;
   bool owns_channel_;
@@ -1010,6 +1029,7 @@ inline void LoginResponse::set_success(bool value) {
   // @@protoc_insertion_point(field_set:fixbug.LoginResponse.success)
 }
 
+<<<<<<< HEAD
 // -------------------------------------------------------------------
 
 // RegisterRequest
@@ -1206,6 +1226,8 @@ inline void RegisterResponse::set_success(bool value) {
   // @@protoc_insertion_point(field_set:fixbug.RegisterResponse.success)
 }
 
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 #ifdef __GNUC__
   #pragma GCC diagnostic pop
 #endif  // __GNUC__
@@ -1213,10 +1235,13 @@ inline void RegisterResponse::set_success(bool value) {
 
 // -------------------------------------------------------------------
 
+<<<<<<< HEAD
 // -------------------------------------------------------------------
 
 // -------------------------------------------------------------------
 
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 
 // @@protoc_insertion_point(namespace_scope)
 

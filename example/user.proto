@@ -22,6 +22,7 @@ message LoginResponse
   bool success = 2;
 }
 
+<<<<<<< HEAD
 message RegisterRequest
 {
   uint32 id = 1;
@@ -39,4 +40,9 @@ service UserServiceRpc
 {
   rpc Login(LoginRequest) returns(LoginResponse);
   rpc Register(RegisterRequest) returns(RegisterResponse);
+=======
+service UserServiceRpc
+{
+  rpc Login(LoginRequest) returns(LoginResponse);
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 }

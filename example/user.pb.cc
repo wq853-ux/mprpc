@@ -38,6 +38,7 @@ class LoginResponseDefaultTypeInternal {
   ::google::protobuf::internal::ExplicitlyConstructed<LoginResponse>
       _instance;
 } _LoginResponse_default_instance_;
+<<<<<<< HEAD
 class RegisterRequestDefaultTypeInternal {
  public:
   ::google::protobuf::internal::ExplicitlyConstructed<RegisterRequest>
@@ -48,6 +49,8 @@ class RegisterResponseDefaultTypeInternal {
   ::google::protobuf::internal::ExplicitlyConstructed<RegisterResponse>
       _instance;
 } _RegisterResponse_default_instance_;
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 }  // namespace fixbug
 namespace protobuf_user_2eproto {
 static void InitDefaultsResultCode() {
@@ -93,6 +96,7 @@ static void InitDefaultsLoginResponse() {
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsLoginResponse}, {
       &protobuf_user_2eproto::scc_info_ResultCode.base,}};
 
+<<<<<<< HEAD
 static void InitDefaultsRegisterRequest() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
@@ -122,15 +126,23 @@ static void InitDefaultsRegisterResponse() {
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsRegisterResponse}, {
       &protobuf_user_2eproto::scc_info_ResultCode.base,}};
 
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 void InitDefaults() {
   ::google::protobuf::internal::InitSCC(&scc_info_ResultCode.base);
   ::google::protobuf::internal::InitSCC(&scc_info_LoginRequest.base);
   ::google::protobuf::internal::InitSCC(&scc_info_LoginResponse.base);
+<<<<<<< HEAD
   ::google::protobuf::internal::InitSCC(&scc_info_RegisterRequest.base);
   ::google::protobuf::internal::InitSCC(&scc_info_RegisterResponse.base);
 }
 
 ::google::protobuf::Metadata file_level_metadata[5];
+=======
+}
+
+::google::protobuf::Metadata file_level_metadata[3];
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 const ::google::protobuf::ServiceDescriptor* file_level_service_descriptors[1];
 
 const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_PROTOBUF_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
@@ -155,6 +167,7 @@ const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_PROTOBUF_ATTRIBUT
   ~0u,  // no _weak_field_map_
   GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(::fixbug::LoginResponse, result_),
   GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(::fixbug::LoginResponse, success_),
+<<<<<<< HEAD
   ~0u,  // no _has_bits_
   GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(::fixbug::RegisterRequest, _internal_metadata_),
   ~0u,  // no _extensions_
@@ -170,21 +183,29 @@ const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_PROTOBUF_ATTRIBUT
   ~0u,  // no _weak_field_map_
   GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(::fixbug::RegisterResponse, result_),
   GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(::fixbug::RegisterResponse, success_),
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 };
 static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_PROTOBUF_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
   { 0, -1, sizeof(::fixbug::ResultCode)},
   { 7, -1, sizeof(::fixbug::LoginRequest)},
   { 14, -1, sizeof(::fixbug::LoginResponse)},
+<<<<<<< HEAD
   { 21, -1, sizeof(::fixbug::RegisterRequest)},
   { 29, -1, sizeof(::fixbug::RegisterResponse)},
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 };
 
 static ::google::protobuf::Message const * const file_default_instances[] = {
   reinterpret_cast<const ::google::protobuf::Message*>(&::fixbug::_ResultCode_default_instance_),
   reinterpret_cast<const ::google::protobuf::Message*>(&::fixbug::_LoginRequest_default_instance_),
   reinterpret_cast<const ::google::protobuf::Message*>(&::fixbug::_LoginResponse_default_instance_),
+<<<<<<< HEAD
   reinterpret_cast<const ::google::protobuf::Message*>(&::fixbug::_RegisterRequest_default_instance_),
   reinterpret_cast<const ::google::protobuf::Message*>(&::fixbug::_RegisterResponse_default_instance_),
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 };
 
 void protobuf_AssignDescriptors() {
@@ -202,7 +223,11 @@ void protobuf_AssignDescriptorsOnce() {
 void protobuf_RegisterTypes(const ::std::string&) GOOGLE_PROTOBUF_ATTRIBUTE_COLD;
 void protobuf_RegisterTypes(const ::std::string&) {
   protobuf_AssignDescriptorsOnce();
+<<<<<<< HEAD
   ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 5);
+=======
+  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 3);
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 }
 
 void AddDescriptorsImpl() {
@@ -212,6 +237,7 @@ void AddDescriptorsImpl() {
       "rcode\030\001 \001(\005\022\016\n\006errmsg\030\002 \001(\014\")\n\014LoginRequ"
       "est\022\014\n\004name\030\001 \001(\014\022\013\n\003pwd\030\002 \001(\014\"D\n\rLoginR"
       "esponse\022\"\n\006result\030\001 \001(\0132\022.fixbug.ResultC"
+<<<<<<< HEAD
       "ode\022\017\n\007success\030\002 \001(\010\"8\n\017RegisterRequest\022"
       "\n\n\002id\030\001 \001(\r\022\014\n\004name\030\002 \001(\014\022\013\n\003pwd\030\003 \001(\014\"G"
       "\n\020RegisterResponse\022\"\n\006result\030\001 \001(\0132\022.fix"
@@ -223,6 +249,14 @@ void AddDescriptorsImpl() {
   };
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
       descriptor, 460);
+=======
+      "ode\022\017\n\007success\030\002 \001(\0102F\n\016UserServiceRpc\0224"
+      "\n\005Login\022\024.fixbug.LoginRequest\032\025.fixbug.L"
+      "oginResponseB\003\200\001\001b\006proto3"
+  };
+  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
+      descriptor, 265);
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "user.proto", &protobuf_RegisterTypes);
 }
@@ -1059,6 +1093,7 @@ void LoginResponse::InternalSwap(LoginResponse* other) {
 
 // ===================================================================
 
+<<<<<<< HEAD
 void RegisterRequest::InitAsDefaultInstance() {
 }
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
@@ -1646,6 +1681,8 @@ void RegisterResponse::InternalSwap(RegisterResponse* other) {
 
 // ===================================================================
 
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 UserServiceRpc::~UserServiceRpc() {}
 
 const ::google::protobuf::ServiceDescriptor* UserServiceRpc::descriptor() {
@@ -1665,6 +1702,7 @@ void UserServiceRpc::Login(::google::protobuf::RpcController* controller,
   done->Run();
 }
 
+<<<<<<< HEAD
 void UserServiceRpc::Register(::google::protobuf::RpcController* controller,
                          const ::fixbug::RegisterRequest*,
                          ::fixbug::RegisterResponse*,
@@ -1673,6 +1711,8 @@ void UserServiceRpc::Register(::google::protobuf::RpcController* controller,
   done->Run();
 }
 
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 void UserServiceRpc::CallMethod(const ::google::protobuf::MethodDescriptor* method,
                              ::google::protobuf::RpcController* controller,
                              const ::google::protobuf::Message* request,
@@ -1686,12 +1726,15 @@ void UserServiceRpc::CallMethod(const ::google::protobuf::MethodDescriptor* meth
              ::google::protobuf::down_cast< ::fixbug::LoginResponse*>(response),
              done);
       break;
+<<<<<<< HEAD
     case 1:
       Register(controller,
              ::google::protobuf::down_cast<const ::fixbug::RegisterRequest*>(request),
              ::google::protobuf::down_cast< ::fixbug::RegisterResponse*>(response),
              done);
       break;
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
     default:
       GOOGLE_LOG(FATAL) << "Bad method index; this should never happen.";
       break;
@@ -1704,8 +1747,11 @@ const ::google::protobuf::Message& UserServiceRpc::GetRequestPrototype(
   switch(method->index()) {
     case 0:
       return ::fixbug::LoginRequest::default_instance();
+<<<<<<< HEAD
     case 1:
       return ::fixbug::RegisterRequest::default_instance();
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
     default:
       GOOGLE_LOG(FATAL) << "Bad method index; this should never happen.";
       return *::google::protobuf::MessageFactory::generated_factory()
@@ -1719,8 +1765,11 @@ const ::google::protobuf::Message& UserServiceRpc::GetResponsePrototype(
   switch(method->index()) {
     case 0:
       return ::fixbug::LoginResponse::default_instance();
+<<<<<<< HEAD
     case 1:
       return ::fixbug::RegisterResponse::default_instance();
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
     default:
       GOOGLE_LOG(FATAL) << "Bad method index; this should never happen.";
       return *::google::protobuf::MessageFactory::generated_factory()
@@ -1746,6 +1795,7 @@ void UserServiceRpc_Stub::Login(::google::protobuf::RpcController* controller,
   channel_->CallMethod(descriptor()->method(0),
                        controller, request, response, done);
 }
+<<<<<<< HEAD
 void UserServiceRpc_Stub::Register(::google::protobuf::RpcController* controller,
                               const ::fixbug::RegisterRequest* request,
                               ::fixbug::RegisterResponse* response,
@@ -1753,6 +1803,8 @@ void UserServiceRpc_Stub::Register(::google::protobuf::RpcController* controller
   channel_->CallMethod(descriptor()->method(1),
                        controller, request, response, done);
 }
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 
 // @@protoc_insertion_point(namespace_scope)
 }  // namespace fixbug
@@ -1767,12 +1819,15 @@ template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::fixbug::LoginRequest* Arena::Cre
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::fixbug::LoginResponse* Arena::CreateMaybeMessage< ::fixbug::LoginResponse >(Arena* arena) {
   return Arena::CreateInternal< ::fixbug::LoginResponse >(arena);
 }
+<<<<<<< HEAD
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::fixbug::RegisterRequest* Arena::CreateMaybeMessage< ::fixbug::RegisterRequest >(Arena* arena) {
   return Arena::CreateInternal< ::fixbug::RegisterRequest >(arena);
 }
 template<> GOOGLE_PROTOBUF_ATTRIBUTE_NOINLINE ::fixbug::RegisterResponse* Arena::CreateMaybeMessage< ::fixbug::RegisterResponse >(Arena* arena) {
   return Arena::CreateInternal< ::fixbug::RegisterResponse >(arena);
 }
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 }  // namespace protobuf
 }  // namespace google
 

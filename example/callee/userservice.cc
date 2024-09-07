@@ -1,8 +1,11 @@
 #include <iostream>
 #include <string>
 #include "user.pb.h"
+<<<<<<< HEAD
 #include "mprpcapplication.h"
 #include "rpcprovider.h"
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 
 // UserService原来是一个本地服务，提供了两个进程内的本地方法，Login和GetFriendLists
 class UserService : public fixbug::UserServiceRpc
@@ -15,6 +18,7 @@ public:
     return true;
   }
 
+<<<<<<< HEAD
   bool Register(uint32_t id, std::string name, std::string pwd)
   {
     std::cout << "doing local service: Register" << std::endl;
@@ -22,6 +26,8 @@ public:
     return true;
   }
 
+=======
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
   // 重写基类UserServiceRpc的虚函数，下面这些方法都是框架直接调用的
   /*
     1. caller 发起rpc请求 ==> Login(LoginRequest) ==> muduo ==> callee 接收
@@ -42,6 +48,7 @@ public:
     code->set_errmsg("");
     response->set_success(login_result);
 
+<<<<<<< HEAD
     // 响应对象数据的序列化和网络发送（框架实现）
     done->Run();
   }
@@ -75,6 +82,15 @@ int main(int argc, char **argv)
   provider.NotifyService(new UserService());
 
   provider.Run(); //启动发布服务
+=======
+    // 回调
+    
+  }
+};
+
+int main()
+{
+>>>>>>> 2ea601eed4f7530ca0c589c43c27297b0828fefc
 
   return 0;
 }
