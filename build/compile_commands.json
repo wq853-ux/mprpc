@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/opt/project/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /opt/project/mprpc/src/mprpcapplication.cc",
+  "file": "/opt/project/mprpc/src/mprpcapplication.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /opt/project/mprpc/src/mprpcconfig.cc",
+  "file": "/opt/project/mprpc/src/mprpcconfig.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /opt/project/mprpc/src/rpcheader.pb.cc",
+  "file": "/opt/project/mprpc/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /opt/project/mprpc/src/rpcprovider.cc",
+  "file": "/opt/project/mprpc/src/rpcprovider.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /opt/project/mprpc/src/mprpcchannel.cc",
+  "file": "/opt/project/mprpc/src/mprpcchannel.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /opt/project/mprpc/src/mprpccontroller.cc",
+  "file": "/opt/project/mprpc/src/mprpccontroller.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/mprpc.dir/logger.cc.o -c /opt/project/mprpc/src/logger.cc",
+  "file": "/opt/project/mprpc/src/logger.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/src",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /opt/project/mprpc/src/zookeeperutil.cc",
+  "file": "/opt/project/mprpc/src/zookeeperutil.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/example/callee",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/provider.dir/friendservice.cc.o -c /opt/project/mprpc/example/callee/friendservice.cc",
+  "file": "/opt/project/mprpc/example/callee/friendservice.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/example/callee",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /opt/project/mprpc/example/friend.pb.cc",
+  "file": "/opt/project/mprpc/example/friend.pb.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/example/caller",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /opt/project/mprpc/example/caller/callfriendservice.cc",
+  "file": "/opt/project/mprpc/example/caller/callfriendservice.cc"
+},
+{
+  "directory": "/opt/project/mprpc/build/example/caller",
+  "command": "/usr/bin/g++   -I/opt/project/mprpc/src/include -I/opt/project/mprpc/example  -pthread -g   -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /opt/project/mprpc/example/friend.pb.cc",
+  "file": "/opt/project/mprpc/example/friend.pb.cc"
+}
+]
